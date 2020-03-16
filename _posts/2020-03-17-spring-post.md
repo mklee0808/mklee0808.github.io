@@ -1,8 +1,6 @@
 ---
 title: Spring Framework
 ---
-# Spring Framework
-
 ##### Framework란?
 
  공통적인 부분, 반복적인 부분을 미리 만들어놓은 프로그램
@@ -30,10 +28,8 @@ POJO기반의 경량 컨테이너
   > ​     IoC 컨테이너가 개발자 대신 `xml`파일에 정의된 대로 `bean`객체를 생성하고 의존성을 대신 주입하는 것
   >
   > **IoC** : 프로그램의 제어 흐름 구조가 뒤바뀌는 것
-
-  > <img src="C:\Users\mk\AppData\Roaming\Typora\typora-user-images\image-20200316183950324.png" alt="image-20200316183950324" style="zoom: 67%;" />
   >
-  > **AOP : ** 관점지향 프로그래밍의 중요한 개념은 ‘횡단 관점의 분리(Separation of Cross Cutting Concern)’ 이다.
+  > **AOP** :  관점지향 프로그래밍의 중요한 개념은 ‘횡단 관점의 분리(Separation of Cross Cutting Concern)’ 이다.
 
 
 
@@ -55,13 +51,13 @@ POJO기반의 경량 컨테이너
     (지정된 `classpath`에서 `xml`파일을 읽어서 객체 생성)
 
 ```java
-  ApplicationContext factory = new                                                    ClassPathXmlApplicationContext("com/test01/applicationContext.xml");
+  ApplicationContext factory = new ClassPathXmlApplicationContext("com/test01/applicationContext.xml");                                 
 ```
 
 
 
 2. content, context, container
-      content : 기능, 내용, ...
+    content : 기능, 내용, ...
     context : 기능을 구현하기 위한 정보, 설정, ...
     container : 담는 그릇
   
